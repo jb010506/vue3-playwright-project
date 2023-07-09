@@ -1,7 +1,14 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
+import TodoHeader from './components/TodoHeader.vue'
 </script>
 
 <template>
-  <RouterView />
+  <todo-header></todo-header>
 </template>
+
+<style>
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+</style>
